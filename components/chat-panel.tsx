@@ -33,34 +33,34 @@ export function ChatPanel({
 
   const exampleMessages = [
     {
-      heading: 'What is the price',
-      subheading: 'of Apple Inc.?',
-      message: 'What is the price of Apple stock?'
+      heading: 'Сколько стоят акции',
+      subheading: 'FRHC на NASDAQ?',
+      message: 'Сколько стоят акции FRHC на NASDAQ?'
     },
     {
-      heading: 'Show me a stock chart',
-      subheading: 'for $GOOGL',
-      message: 'Show me a stock chart for $GOOGL'
+      heading: 'Покажите мне график акций',
+      subheading: 'для $KSPI',
+      message: 'Покажите мне график акций для $KSPI'
     },
     {
-      heading: 'What are some recent',
-      subheading: `events about Amazon?`,
-      message: `What are some recent events about Amazon?`
+      heading: 'Приведи мне последние',
+      subheading: `новости про Meta`,
+      message: `Приведи мне последние новости про Meta`
     },
     {
-      heading: `What are Microsoft's`,
-      subheading: 'latest financials?',
-      message: `What are Microsoft's latest financials?`
+      heading: `Какие последние финансовые`,
+      subheading: 'показатели NVIDIA?',
+      message: `Какие последние финансовые показатели NVIDIA?`
     },
     {
-      heading: 'How is the stock market',
-      subheading: 'performing today by sector?',
-      message: `How is the stock market performing today by sector?`
+      heading: 'Как обстоят дела на рынке',
+      subheading: 'сегодня по секторам экономики?',
+      message: `Как обстоят дела на рынке сегодня по секторам экономики?`
     },
     {
-      heading: 'Show me a screener',
-      subheading: 'to find new stocks',
-      message: 'Show me a screener to find new stocks'
+      heading: 'Покажите мне скринер',
+      subheading: 'для поиска новых акций',
+      message: 'Покажите мне скринер для поиска новых акций'
     }
   ]
 

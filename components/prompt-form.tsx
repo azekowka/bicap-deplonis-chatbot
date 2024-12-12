@@ -81,16 +81,16 @@ export function PromptForm({
               }}
             >
               <IconPlus />
-              <span className="sr-only">New Chat</span>
+              <span className="sr-only">Новый чат</span>
             </Button>
           </TooltipTrigger>
-          <TooltipContent>New Chat</TooltipContent>
+          <TooltipContent>Новый чат</TooltipContent>
         </Tooltip>
         <Textarea
           ref={inputRef}
           tabIndex={0}
           onKeyDown={onKeyDown}
-          placeholder="Send a message."
+          placeholder="Отправить сообщение."
           className="min-h-[60px] w-full resize-none bg-transparent px-4 py-[1.3rem] focus-within:outline-none sm:text-sm"
           autoFocus
           spellCheck={false}
@@ -108,10 +108,10 @@ export function PromptForm({
                 <div className="rotate-180">
                   <IconArrowDown />
                 </div>
-                <span className="sr-only">Send message</span>
+                <span className="sr-only">Отправить сообщение</span>
               </Button>
             </TooltipTrigger>
-            <TooltipContent>Send message</TooltipContent>
+            <TooltipContent>Отправить сообщение</TooltipContent>
           </Tooltip>
         </div>
       </div>

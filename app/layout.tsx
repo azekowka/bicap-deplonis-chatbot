@@ -13,11 +13,11 @@ export const metadata = {
     ? new URL(`https://${process.env.VERCEL_URL}`)
     : undefined,
   title: {
-    default: 'Finance AI by Deplonis',
-    template: `%s - StockBot powered by Groq`
+    default: 'BICAP Deplonis',
+    template: ``
   },
   description:
-    'AI Chatbot that Responds With Live Interactive Stock Charts, Financials, News, Screeners, and More.',
+    'ИИ-ассистент для финансов',
   icons: {
     icon: '/favicon.ico',
     shortcut: '/favicon-16x16.png',
